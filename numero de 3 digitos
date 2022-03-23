@@ -1,0 +1,9 @@
+n=int(input("Ingrese un número de 3 dígitos "))
+
+numero=n
+while n<100 or n>=1000:
+    n=int(input("Ingrese un número de 3 dígitos "))
+
+b=n%100
+d=b//10
+print("El número del medio es ",d)
