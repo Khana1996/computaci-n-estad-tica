@@ -1,0 +1,11 @@
+a , b  =  map( int , input ("ingrese 2 números diferentes entre si "). split ())
+
+while a==b:
+    a , b  =  map( int , input ("ingrese 2 números diferentes entre si "). split ())
+
+temporal = 0
+while b != 0:
+    temporal = b
+    b = a % b
+    a = temporal
+print("MCD ",a)
