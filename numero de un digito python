@@ -1,0 +1,8 @@
+n=int(input("Ingrese un número de un dígito "))
+nro=0
+while n>9:
+    n=int(input("Ingrese un número de un dígito "))
+
+while n>=0:
+    print(n,end=" ")
+    n=n-1
